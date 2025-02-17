@@ -11,6 +11,9 @@ public class GenericUtils {
      * @param <T>   the type of the array elements
      * @param array the array to be reversed; must not be {@code null}
      * @throws NullPointerException if {@code array} is {@code null}
+     *
+     * @author Bauer + Weinberger
+     * @version 1.0
      */
     public static <T> void reverse(T[] array) {
         if (array == null) {
